@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>American Novels Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>American Novels on the Map</h1>
+      <p>Explore the real-world settings of classic American literature</p>
+    </header>
+
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search for a novel..." />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="map"></div>
+
+    <div id="info-panel" class="hidden">
+      <button id="closePanel">&times;</button>
+      <h2 id="novel-title"></h2>
+      <p id="novel-author"></p>
+      <p id="novel-location"></p>
+      <img id="novel-image" src="" alt="" />
+      <p id="novel-description"></p>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="novels.json" type="text/json" id="novels-data"></script>
+  <script src="script.js"></script>
+</body>
+</html>
