@@ -6,7 +6,7 @@
     "lat": 36.3125,
     "lng": -121.2402,
     "location": "Salinas Valley, California",
-    "description": "The Salinas Valley, often called 'The Salad Bowl of the World,' is a fertile agricultural region in California. Steinbeck grew up here and used it as the heart of many of his novels. In *The Grapes of Wrath*, the Joad family begins their journey here before heading west during the Dust Bowl.",
+    "description": "The Salinas Valley is a fertile agricultural region in California. Steinbeck grew up here and used it as the heart of many of his novels. In *The Grapes of Wrath*, the Joad family move here after there home state of Oklahoma is devastated by the Dust Bowl.",
     "image": "images/salinas-valley.jpg"
   },
   {
@@ -16,7 +16,7 @@
     "lat": 31.7619,
     "lng": -106.4850,
     "location": "Texas-Mexico Borderlands",
-    "description": "A brutal, mythic vision of the American Southwest in the 1840s–50s. The Glanton gang roams the blood-soaked deserts near El Paso and the Rio Grande. McCarthy's prose turns the landscape into a character — vast, indifferent, and violent.",
+    "description": "A brutal novel taking place in American Southwest in the 1840s–50s. The mian character known only as \"The Kid\" join the Glanton gang and roams the deserts near El Paso and the Rio Grande commiting horiffic crimes.",
     "image": "images/blood-meridian-desert.jpg"
   },
   {
@@ -26,7 +26,77 @@
     "lat": 36.6733,
     "lng": -121.6555,
     "location": "Salinas, California",
-    "description": "Another Steinbeck masterpiece set in the Salinas Valley. The novel follows the intertwined fates of the Trask and Hamilton families, exploring themes of good and evil across generations. Steinbeck called it 'the story of my country.'",
+    "description": "Another Steinbeck masterpiece set in the Salinas Valley. The novel follows the intertwined fates of the Trask and Hamilton families, exploring themes of good and evil and overcoming the trama of your past",
     "image": "images/salinas-valley.jpg"
-  }
+  },
+  {
+    "title": "The Adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "year": 1876,
+    "lat": 39.7101,
+    "lng": -91.4132,
+    "location": "Hannibal, Missouri",
+    "description": "The fictional St. Petersburg, Missouri—modeled on Twain's childhood home of Hannibal is a river town on the banks of the Mississippi.",
+    "image": "images/hannibal-missouri.jpg"
+  },
+  {
+    "title": "Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "year": 1884,
+    "lat": 39.0997,
+    "lng": -90.3306,
+    "location": "Hannibal, Missouri (Mississippi River)",
+    "description": "Starting in the same river town as Tom Sawyer, Huck and Jim's raft journey drifts down the mighty Mississippi through Missouri, Illinois, Kentucky, and Arkansas.",
+    "image": "images/mississippi-river-hannibal.jpg"
+  },
+  {
+    "title": "Gone with the Wind",
+    "author": "Margaret Mitchell",
+    "year": 1936,
+    "lat": 33.7490,
+    "lng": -84.3880,
+    "location": "Atlanta, Georgia",
+    "description": "Set against the scorched earth of the Civil War the story unfolds in Clayton County plantations and the burning city of Atlanta.",
+    "image": "images/atlanta-georgia-civil-war.jpg"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "year": 1960,
+    "lat": 31.5229,
+    "lng": -85.3036,
+    "location": "Monroeville, Alabama",
+    "description": "The fictional Maycomb, Alabama inspired by Harper Lee's hometown of Monroeville is a small town in the poor American South. Dusty streets, the old courthouse, and the Radley house embody racial tensions, lose of innocence, and the quiet heroism of Atticus Finch amid racism and hate",
+    "image": "images/monroeville-alabama.jpg"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "year": 1951,
+    "lat": 40.7128,
+    "lng": -74.0060,
+    "location": "New York City, New York",
+    "description": "Post-WWII Manhattan buzzes with phoniness for Holden Caulfield. The gritty subways, Central Park's frozen ducks, the Museum of Natural History, and seedy hotels like the Edmont.",
+    "image": "images/new-york-city-1950s.jpg"
+  },
+  {
+    "title": "No Country for Old Men",
+    "author": "Cormac McCarthy",
+    "year": 2005,
+    "lat": 31.7619,
+    "lng": -106.4850,
+    "location": "West Texas Borderlands",
+    "description": "In the stark 1980 deserts near the Rio Grande Llewelyn Moss stumbles on a drug deal gone wrong while hunting and in turn, unleashes Anton Chigurh's relentless pursuit.",
+    "image": "images/west-texas-desert.jpg"
+  },
+  {
+    "title": "The Handmaid's Tale",
+    "author": "Margaret Atwood",
+    "year": 1985,
+    "lat": 42.3601,
+    "lng": -71.0589,
+    "location": "Cambridge, Massachusetts",
+    "description": "In a near-future dystopia the Republic of Gilead rises to power and the town of Cambridge, Massachusetts is the setting of Offred's oppression.",
+    "image": "images/cambridge-massachusetts-harvard.jpg"
+  },
 ]
