@@ -1,0 +1,32 @@
+[
+  {
+    "title": "The Grapes of Wrath",
+    "author": "John Steinbeck",
+    "year": 1939,
+    "lat": 36.3125,
+    "lng": -121.2402,
+    "location": "Salinas Valley, California",
+    "description": "The Salinas Valley, often called 'The Salad Bowl of the World,' is a fertile agricultural region in California. Steinbeck grew up here and used it as the heart of many of his novels. In *The Grapes of Wrath*, the Joad family begins their journey here before heading west during the Dust Bowl.",
+    "image": "images/salinas-valley.jpg"
+  },
+  {
+    "title": "Blood Meridian",
+    "author": "Cormac McCarthy",
+    "year": 1985,
+    "lat": 31.7619,
+    "lng": -106.4850,
+    "location": "Texas-Mexico Borderlands",
+    "description": "A brutal, mythic vision of the American Southwest in the 1840s–50s. The Glanton gang roams the blood-soaked deserts near El Paso and the Rio Grande. McCarthy's prose turns the landscape into a character — vast, indifferent, and violent.",
+    "image": "images/blood-meridian-desert.jpg"
+  },
+  {
+    "title": "East of Eden",
+    "author": "John Steinbeck",
+    "year": 1952,
+    "lat": 36.6733,
+    "lng": -121.6555,
+    "location": "Salinas, California",
+    "description": "Another Steinbeck masterpiece set in the Salinas Valley. The novel follows the intertwined fates of the Trask and Hamilton families, exploring themes of good and evil across generations. Steinbeck called it 'the story of my country.'",
+    "image": "images/salinas-valley.jpg"
+  }
+]
