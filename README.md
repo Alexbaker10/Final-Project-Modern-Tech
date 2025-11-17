@@ -13,10 +13,7 @@
 
 ✅ Added images
 
-🚫
-🚫
-🚫
-🚫
-🚫
-🚫
-🚫
+🚫Done last minute fixs
+
+🚫Bugs
+
