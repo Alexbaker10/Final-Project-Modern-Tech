@@ -2,7 +2,6 @@ let map;
 let markers = [];
 let novels = [];
 
-// Load novels.json with proper error handling (no alert!)
 fetch('novels.json')
   .then(r => {
     if (!r.ok) {
@@ -17,7 +16,6 @@ fetch('novels.json')
     addMarkers();
   })
   .catch(err => {
-    // Instead of alert(), we show a nice message on the page
     console.error(err);
     document.getElementById('map').innerHTML = `
       <div style="padding: 2rem; text-align: center; background: #fff; color: #a00;">
@@ -28,7 +26,6 @@ fetch('novels.json')
       </div>`;
   });
 
-// Initialise map
 function initMap() {
   map = L.map('map').setView([39.8283, -98.5795], 4);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -36,7 +33,6 @@ function initMap() {
   }).addTo(map);
 }
 
-// Add markers
 function addMarkers() {
   novels.forEach(novel => {
     const m = L.marker([novel.lat, novel.lng])
@@ -47,7 +43,6 @@ function addMarkers() {
   });
 }
 
-// Search
 document.getElementById('searchBtn').onclick = search;
 document.getElementById('searchInput').onkeypress = e => e.key === 'Enter' && search();
 
@@ -75,7 +70,6 @@ function search() {
   showPanel(match);
 }
 
-// Show info panel
 function showPanel(n) {
   document.getElementById('novel-title').textContent = n.title;
   document.getElementById('novel-author').textContent = `${n.author} (${n.year})`;
@@ -85,7 +79,6 @@ function showPanel(n) {
   document.getElementById('info-panel').classList.remove('hidden');
 }
 
-// Close panel
 document.getElementById('closePanel').onclick = () => {
   document.getElementById('info-panel').classList.add('hidden');
 };
