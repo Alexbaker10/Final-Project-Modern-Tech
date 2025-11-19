@@ -1,19 +1,13 @@
-# Progess On Final Project
-✅ Coded Dockerfile
+# How to Run This Project
 
-✅ Coded docker-compose.yml
+This project is containerized using Docker to ensure it runs consistently on any machine.
 
-✅ Coded index.html
+### Prerequisites
+* **Docker Desktop** installed and running.
 
-✅ Coded novels.json
-
-✅ Coded script.js
-
-✅ Coded styles.css
-
-✅ Added images
-
-✅Done last minute fixs
-
-✅Bugs
-
+### Quick Start
+1. **Clone or Download** this repository to your local machine.
+2. **Open your terminal** and navigate to the project folder (where `docker-compose.yml` is located).
+3. **Build and Run** the container with the following command:
+   ```bash
+   docker-compose up --build
