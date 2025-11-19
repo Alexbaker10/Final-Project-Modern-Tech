@@ -98,5 +98,45 @@
     "location": "Cambridge, Massachusetts",
     "description": "In a near-future dystopia the Republic of Gilead rises to power and the town of Cambridge, Massachusetts is the setting of Offred's oppression.",
     "image": "images/cambridge.jpg"
+  },
+  {
+    "title": "Lonesome Dove",
+    "author": "Larry McMurtry",
+    "year": 1985,
+    "lat": 26.5603,
+    "lng": -99.1332,
+    "location": "Lonesome Dove, Texas",
+    "description": "Set in the dusty Texas borderlands, this epic follows retired Texas Rangers Augustus McCrae and Woodrow Call as they leave the Hat Creek Cattle Company to drive a herd from the Rio Grande to Montana.",
+    "image": "images/lonesome-dove.jpg"
+  },
+  {
+    "title": "The Pearl",
+    "author": "John Steinbeck",
+    "year": 1947,
+    "lat": 24.1426,
+    "lng": -110.3128,
+    "location": "La Paz, Baja California Sur",
+    "description": "Based on a Mexican folk tale, this novella is set in a coastal town where Kino, a poor pearl diver, finds the biggest pearl anyone has ever seen. He quickly discovers however that sudden wealth brings tragedy rather than salvation.",
+    "image": "images/the-pearl.jpg"
+  },
+  {
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "year": 1851,
+    "lat": 41.6362,
+    "lng": -70.9342,
+    "location": "New Bedford, Massachusetts",
+    "description": "Before setting sail on the Pequod, Ishmael arrives in New Bedford, the whaling capital of the world. The novel chronicles Captain Ahab's obsession with the white whale.",
+    "image": "images/moby-dick.jpg"
+  },
+  {
+    "title": "Of Mice and Men",
+    "author": "John Steinbeck",
+    "year": 1937,
+    "lat": 36.4247,
+    "lng": -121.3261,
+    "location": "Soledad, California",
+    "description": "Set on a ranch in the Salinas Valley during the Great Depression, the story follows George Milton and Lennie Small, two displaced migrant ranch workers striving for the American Dream.",
+    "image": "images/of-mice-and-men.jpg"
   }
 ]
